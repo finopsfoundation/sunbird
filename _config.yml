@@ -39,4 +39,6 @@ exclude:
 
 permalink: pretty
 
-include: [_redirects]
+include:
+  - _redirects
+  - _pages/
