@@ -13,12 +13,11 @@ timezone: UTC
 markdown: kramdown
 plugins:
   - jekyll-sitemap
+  - jekyll-postcss
 
 # jekyll-seo-tag configuration
 title: "Sunbird"
 description: ""
-
-
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

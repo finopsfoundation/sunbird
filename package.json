@@ -1,20 +1,11 @@
 {
-  "license": "MIT",
-  "dependencies": {
-    "@tailwindcss/forms": "^0.4.0",
-    "@tailwindcss/typography": "^0.5.0",
-    "autoprefixer": "^10.4.0",
-    "browser-sync": "^2.27.7",
-    "concurrently": "^6.4.0",
-    "global": "^4.4.0",
-    "postcss": "^8.4.4",
+  "devDependencies": {
+    "autoprefixer": "^10.4.1",
+    "cssnano": "^5.0.14",
+    "postcss": "^8.4.5",
     "postcss-import": "^14.0.2",
-    "tailwindcss": "^3.0.1"
-  },
-  "scripts": {
-    "prebuild": "jekyll build",
-    "build": "NODE_ENV=production yarn tailwindcss -i css/main.css --postcss -o _site/css/main.css --minify",
-    "prewatch": "jekyll build",
-    "watch": "concurrently \"jekyll build --watch\" \"yarn tailwindcss -i css/main.css --postcss -o _site/css/main.css --watch\" \"yarn browser-sync start --server '_site' --files '_site' --no-notify\""
+    "postcss-nested": "^5.0.6",
+    "tailwindcss": "^3.0.9",
+    "algoliasearch": "^4.11.0"
   }
 }

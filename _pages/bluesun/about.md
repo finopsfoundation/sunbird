@@ -1,8 +1,9 @@
---
+---
 
 title: About BlueSun
-description:
+description: 
+permalink: /bluesun/about/
 
---
+---
 
 # About BlueSun

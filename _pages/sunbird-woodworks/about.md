@@ -1,7 +1,8 @@
 ---
 
 title: About Sunbird Woodworks
-description: /sunbird-woodworks/about/
+description: 
+permalink: /sunbird-woodworks/about/
 
 ---
 

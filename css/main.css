@@ -1,16 +1,15 @@
+---
+---
 /* Front matter is necessary for Jekyll */
 @import "tailwindcss/base";
 @import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 
 /* Write your styles below this line. */
 
-@import "partials/vendor/hc-offcanvas-nav_carbon";
-@import "partials/base/global";
-@import "partials/base/typography";
-@import "partials/components/_modals";
-@import "extra";
-
-
-/* Write your styles above this line. */
-
-@import "tailwindcss/utilities";
+@import "css/partials/vendor/hc-offcanvas-nav_carbon";
+@import "css/partials/base/global";
+@import "css/partials/base/typography";
+@import "css/partials/components/modals";
+@import "css/extra";
